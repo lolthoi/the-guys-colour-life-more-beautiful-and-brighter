@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body .home {
+    float: left;
+    width: 100%;
+    margin: 0px auto;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    float: left;
+    border: 1px solid red;
+    padding-right: 90px;
+    padding-left: 90px;
+    background-color: #ffffff;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.logo>a>img{
+    height: 73px;
+}
+.menu{
+    float: right;
+    height: 100%;
+    width: 80%;
+    padding-top:29px;
+    padding-bottom:29px;
+}
+.menu li{
+    float: right;
+}
+.menu li a{
+    font-size: 17px;
+    color: #7e7e7e;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: #cc9933;
+}
+.home .container{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: 10px auto;
+}
+.duc{
+    position: absolute;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 69%;
+    height: 29%;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+.tuananh{
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+    width: 29%;
+    height: 69%;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+.son{
+    position: absolute;
+    float: right;
+    bottom: 0px;
+    right: 0px;
+    width: 69%;
+    height: 29%;
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+.duong{
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    left: 0px;
+    width: 29%;
+    height: 69%;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+}
+.viet{
+    float: left;
+    position: absolute;
+    top: 31%;
+    left: 31%;
+    width: 38%;
+    height: 38%;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+}
