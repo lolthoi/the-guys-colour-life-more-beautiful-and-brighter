@@ -53,6 +53,10 @@ body .home {
 .menu li a:hover{
     color: #cc9933;
 }
+.home .vid {
+    width: 100%;
+    height: 100%;
+}
 .home .container{
     float: left;
     position: relative;
@@ -114,4 +118,9 @@ body .home {
     padding: 10px;
     background-color: aqua;
     text-align: center;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    float: left;
 }
