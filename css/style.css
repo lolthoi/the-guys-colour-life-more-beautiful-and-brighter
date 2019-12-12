@@ -25,6 +25,8 @@ body .home {
     padding-right: 90px;
     padding-left: 90px;
     background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    z-index: 100;
 }
 .logo{
     height: 100%;
@@ -71,8 +73,13 @@ body .home {
     left: 0px;
     width: 69%;
     height: 29%;
-    background-color: pink;
     padding: 10px;
+    text-align: center;
+}
+.text{
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
     text-align: center;
 }
 .tuananh{
