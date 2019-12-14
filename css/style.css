@@ -32,6 +32,9 @@ body .home {
     width: 20%;
     float: left;
 }
+.logo a:hover img{
+    transform: rotate(20deg);
+}
 .logo>a>img{
     height: 73px;
 }
@@ -47,6 +50,7 @@ body .home {
 }
 .menu li a{
     font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
     color: #7e7e7e;
     margin-left: 30px;
     text-transform: uppercase;
@@ -84,6 +88,9 @@ body .home {
     height: 1000px;
     margin: 10px auto;
 }
+.container a:hover .background img{
+    transform: rotate(3deg);
+}
 .duc{
     position: absolute;
     float: left;
@@ -91,7 +98,6 @@ body .home {
     left: 0;
     width: 69%;
     height: 29%;
-    background-color: brown;
     padding: 10px;
 }
 .son{
@@ -101,7 +107,6 @@ body .home {
     right: 0;
     width: 29%;
     height: 69%;
-    background-color: yellow;
     padding: 10px;
 }
 .tuananh{
@@ -111,7 +116,6 @@ body .home {
     right: 0;
     width: 69%;
     height: 29%;
-    background-color: green;
     padding: 10px;
 }
 .duong{
@@ -121,7 +125,6 @@ body .home {
     left: 0;
     width: 29%;
     height: 69%;
-    background-color: blue;
     padding: 10px;
 }
 .viet{
@@ -132,7 +135,6 @@ body .home {
     width: 38%;
     height: 38%;
     padding: 10px;
-    background-color: aqua;
 }
 a .text{
     top: 50%;
