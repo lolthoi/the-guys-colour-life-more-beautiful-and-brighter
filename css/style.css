@@ -65,6 +65,8 @@ body .home {
     width: 100%;
     padding-right: 90px;
     padding-left: 90px;
+    background-image: url("../img/script_background_40percent.jpg");
+    background-size: cover;
 }
 .slogan h1{
     font-family: 'Gloria Hallelujah', cursive;
