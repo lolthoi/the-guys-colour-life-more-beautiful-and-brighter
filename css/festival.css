@@ -125,3 +125,15 @@ h1{
     font-weight: 600;
     text-shadow: 1px 1px darkgray;
 }
+.content{
+    float: left;
+    width: 100%;
+}
+.text-event{
+    float: left;
+    width: 60%;
+}
+.img-event{
+    float: left;
+    width: 200px;
+}
