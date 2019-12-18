@@ -16,6 +16,11 @@ body .home {
     float: left;
     width: 100%;
     margin: 0 auto;
+    background-color: white;
+    background-image: url("../img/oktoberfest_wall.png");
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 
 /*--header--*/
