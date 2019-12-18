@@ -19,6 +19,8 @@ body .home {
     margin: 0 auto;
 }
 
+
+/*--header--*/
 .header{
     width: 100%;
     height: 75px;
@@ -29,38 +31,32 @@ body .home {
     position: fixed;
     z-index: 1;
 }
-
 .logo{
     height: 100%;
-    width: 20%;
+    width: 50%;
     float: left;
 }
-
-.logo a {
-    padding-left: 4px;
-}
-
-.logo a i:hover {
-    color: #cc9933;
-}
-
-.logo a i {
-    color: #7e7e7e;
-    line-height: 70px;
-    font-size: 22px;
-    cursor: pointer;
-}
-
 .logo a:hover img{
-    transform: rotate(20deg);
+    transform: rotate(330deg);
 }
 .logo>a>img{
-    height: 73px;
+    height: 100%;
+}
+.logo a{
+    color: black;
+}
+.logo a:hover{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
 }
 .menu{
     float: right;
     height: 100%;
-    width: 80%;
+    width: 50%;
     padding-top:29px;
     padding-bottom:29px;
 }
@@ -70,7 +66,6 @@ body .home {
     display: flex;
     position: relative;
 }
-
 
 .menu ul li ul {
     position: absolute;
@@ -91,7 +86,7 @@ body .home {
     text-transform: capitalize;
 }
 .menu li a{
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: #7e7e7e;
     margin-left: 30px;
@@ -99,6 +94,7 @@ body .home {
 }
 .menu li a:hover{
     color: #cc9933;
+    text-decoration: none;
 }
 
 
