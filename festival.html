@@ -4,26 +4,48 @@
     <meta charset="UTF-8">
     <title>Culure and festival</title>
     <link rel="stylesheet" type="text/css" href="css/festival.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Germania+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=vietnamese" rel="stylesheet">
 </head>
 <body>
     <div class="home">
         <div class="header">
             <div class="logo">
-                <a href=""> <img alt="" src="img/logo.png"/> </a>
+                <a href=""> <img src="img/logo.png">
+                    <span id="logo">Beer is good but beers are better</span>
+                </a>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href=""> dương</a></li>
-                    <li><a href=""> đức</a></li>
-                    <li><a href=""> việt</a> </li>
-                    <li><a href=""> tuấn anh</a> </li>
-                    <li><a href=""> sơn</a></li>
+                    <li><a  href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    <li><a  href="#careers"> careers</a></li>
+                    <li><a  href="#about"> about us</a></li>
+                    <li class="sub-menu"><a href="#brews"> breweries <span class="caret"></span></a>
+                        <ul style="padding-bottom: 25px;padding-top: 25px">
+                            <li><a href="#">How to brew</a></li>
+                            <li><a href="#">Brewing Factories</a></li>
+                            <li><a href="#">Craft Breweries </a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu"><a href="#beers"> beers <span class="caret"></span></a>
+                        <ul style="padding-bottom: 25px;padding-top: 25px">
+                            <li><a href="https://ntmd.herokuapp.com/">History of Beer</a></li>
+                            <li><a href="http://hitokirikioku.herokuapp.com/festival.html">cultural references</a></li>
+                            <li><a href="#">Nutritional values</a></li>
+                            <li><a href="#">types of beer</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact us"> contact us</a></li>
                 </ul>
             </div>
+            <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div>
+
+
         <div class="container">
             <div class="intro">
                 <h1> Những lễ hội bia đặc sắc và độc đáo nhất thế giới</h1>
@@ -39,18 +61,27 @@
                 </a>
                 <div class="content">
                     <div class="text-event">
-                        <p id="intro">Oktoberfest (German pronunciation: [ɔkˈtoːbɐˌfɛst]) is the world's largest Volksfest (beer festival and travelling funfair). Held annually in Munich, Bavaria, Germany, it is a 16- to 18-day folk festival running from mid or late September to the first Sunday in October.The Oktoberfest Munich Beer Festival was first opened on October 12, 1810.</p>
+                        <p id="intro">Oktoberfest (German pronunciation: [ɔkˈtoːbɐˌfɛst]) is the world's largest Volksfest (beer festival and travelling funfair). Held annually in Munich, Bavaria, Germany, it is a 16- to 18-day folk festival running from mid or late September to the first Sunday in October.The Oktoberfest Munich Beer Festival was first opened on October 12, 1810...</p>
+                        <a href="#"><button class="readmore btn"> Read more</button></a>
                     </div>
                     <div class="img-event">
-                        <img src="img/festival/activities/calypso_sebastian_lehner-9850.-gal-preview.jpg" width="100px">
-                        <img src="img/festival/activities/festzelt_tradition_stimmung_sebastian_lehner-07735.-gal-preview.jpg" width="100px">
-                        <img src="img/festival/activities/festzelt_tradition_zapfen_sebastian_lehner-07709.-gal-preview.jpg" width="100px">
-                        <img src="img/festival/activities/paerchen_sebastian_lehner-07810.-gal-preview.jpg" width="100px">
+                        <div class="thumb">
+                            <img src="img/festival/activities/calypso_sebastian_lehner-9850.-gal-preview.jpg" width="100px">
+                        </div>
+                        <div class="thumb">
+                            <img src="img/festival/activities/festzelt_tradition_stimmung_sebastian_lehner-07735.-gal-preview.jpg" width="100px">
+                        </div>
+                        <div class="thumb">
+                            <img src="img/festival/activities/festzelt_tradition_zapfen_sebastian_lehner-07709.-gal-preview.jpg" width="100px">
+                        </div>
+                        <div class="thumb">
+                            <img src="img/festival/activities/paerchen_sebastian_lehner-07810.-gal-preview.jpg" width="100px">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="div1">
-                <h2 class="title">2. Lễ hội Great British Beer ở London (Anh)</h2>
+                <h2 class="title">2. Lễ hội bia Great British ở London (Anh)</h2>
                 <a href="#" target="_blank">
                     <div class="text">
                         <span id="uk">Great British Beer Festival</span>
@@ -67,7 +98,7 @@
                 </a>
             </div>
             <div class="div1">
-                <h2 class="title">3. Lễ hội Great American Beer ở Colorado (Hoa Kỳ)</h2>
+                <h2 class="title">3. Lễ hội bia Great American ở Colorado (Hoa Kỳ)</h2>
                 <a href="#" target="_blank">
                     <div class="text">
                         <span>Great American Beer Festival</span>
@@ -84,6 +115,20 @@
                 </a>
             </div>
         </div>
+
+
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu').toggleClass('active');
+            })
+            $('ul li').click(function () {
+                $(this).siblings().removeClass('active');
+                $(this).toggleClass('active');
+            })
+        })
+    </script>
 </body>
 </html>

@@ -21,41 +21,80 @@ body .home {
     width: 100%;
     height: 75px;
     float: left;
-    background-color: rgba(255,255,255,0.9);
-    padding-left: 90px;
     padding-right: 90px;
+    padding-left: 90px;
+    background-color: rgba(255,255,255,0.9);
     position: fixed;
-    z-index: 2;
+    z-index: 1;
 }
 .logo{
     height: 100%;
-    width: 20%;
+    width: 50%;
     float: left;
+}
+.logo a:hover img{
+    transform: rotate(330deg);
 }
 .logo>a>img{
     height: 100%;
 }
+.logo a{
+    color: black;
+}
+.logo a:hover{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+}
 .menu{
-    float: left;
+    float: right;
     height: 100%;
-    width: 80%;
+    width: 50%;
     padding-top:29px;
     padding-bottom:29px;
 }
+
 .menu li{
     float: right;
+    display: flex;
+    position: relative;
+}
+
+
+.menu ul li ul {
+    position: absolute;
+    top: 46px;
+    left: 0;
+    background: rgba(255,255,255,0.9);
+    display: none;
+}
+.menu ul li.active ul {
+    display: block;
+}
+.menu ul li ul li {
+    display: block;
+    width: 200px;
+    padding-bottom: 10px;
+}
+.menu ul li ul li a{
+    text-transform: capitalize;
 }
 .menu li a{
-    font-size: 17px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
     color: #7e7e7e;
     margin-left: 30px;
     text-transform: uppercase;
 }
 .menu li a:hover{
     color: #cc9933;
+    text-decoration: none;
 }
+
 .container{
-    float: left;
     position: relative;
     width: auto;
     height: auto;
@@ -63,7 +102,7 @@ body .home {
     margin-left: 90px;
     margin-top: -200px;
     background-color: white;
-    color: red;
+    color: black;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -77,20 +116,19 @@ body .home {
     float: left;
     width: 100%;
 }
+.intro h2{
+    font-family: 'Open Sans', sans-serif;
+}
 .content {
     float: left;
-    width: 70%;
-    margin-top: 50px;
-}
-.sidebar{
-    width: 30%;
-    float: right;
+    width: 100%
 }
 .content .div1{
     width: 100%;
     float: left;
 }
 .div1 figure{
+    width: 100%;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -104,16 +142,106 @@ body .home {
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 10px;
+    color:#236eb5;
 }
 .div1 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
-.summary{
+.div2{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+.div2 .block-1{
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    border-left: 5px solid #236eb5;
+    top: 20%;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+    padding: 40px;
+}
+.div2 .block-1 .teaser {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.div2 .block-1 .teaser .teaser-headline{
+    color: black;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding-left: 20px;
+    font-size: 16px;
+}
+.div2 .block-1 .teaser .teaser-text {
+    color: #236eb5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.readmore{
+    background-color: #bc9c5e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+}
+.teaser h3{
+    margin-top: 0;
+}
+.teaser a:hover{
+    text-decoration: none;
+    background-color: #a98846;
+    color: white;
+}
+.div2 .block-2{
+    float: right;
+    width: 75%;
+}
+.div3{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+.div3 .block-2{
+    float: left;
+    width: 75%;
+}
+.div3 .block-1{
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    border-right: 5px solid #236eb5;
+    top: 20%;
+    right: 0;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+    padding: 40px;
+}
+.div3 .block-1 .teaser {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.div3 .block-1 .teaser .teaser-headline{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.div3 .block-1 .teaser .teaser-text {
+    color: #236eb5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
 }

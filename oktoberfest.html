@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>oktoberfest</title>
     <link rel="stylesheet" type="text/css" href="css/oktoberfest.css">
-    <link rel="stylesheet" type="text/css" href="vendors/fontawesome/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Germania+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=vietnamese" rel="stylesheet">
@@ -13,30 +16,48 @@
 <div class="home">
     <div class="header">
         <div class="logo">
-            <a href=""> <img alt="" src="img/logo.png"/> </a>
+            <a href=""> <img src="img/logo.png">
+                <span id="logo">Beer is good but beers are better</span>
+            </a>
         </div>
         <div class="menu">
             <ul>
-                <li><a href=""> dương</a></li>
-                <li><a href=""> đức</a></li>
-                <li><a href=""> việt</a> </li>
-                <li><a href=""> tuấn anh</a> </li>
-                <li><a href=""> sơn</a></li>
+                <li><a  href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                <li><a  href="#careers"> careers</a></li>
+                <li><a  href="#about"> about us</a></li>
+                <li class="sub-menu"><a href="#brews"> breweries <span class="caret"></span></a>
+                    <ul style="padding-bottom: 25px;padding-top: 25px">
+                        <li><a href="#">How to brew</a></li>
+                        <li><a href="#">Brewing Factories</a></li>
+                        <li><a href="#">Craft Breweries </a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu"><a href="#beers"> beers <span class="caret"></span></a>
+                    <ul style="padding-bottom: 25px;padding-top: 25px">
+                        <li><a href="https://ntmd.herokuapp.com/">History of Beer</a></li>
+                        <li><a href="http://hitokirikioku.herokuapp.com/festival.html">cultural references</a></li>
+                        <li><a href="#">Nutritional values</a></li>
+                        <li><a href="#">types of beer</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact us"> contact us</a></li>
             </ul>
         </div>
+        <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
     </div>
+
     <div class="backgound">
         <img src="img/oktoberfest.jpg">
     </div>
     <div class="container">
         <div class="intro">
             <h2>
-                Oktoberfest (German pronunciation: [ɔkˈtoːbɐˌfɛst]) is the world's largest Volksfest (beer festival and travelling funfair). Held annually in Munich, Bavaria, Germany, it is a 16- to 18-day folk festival running from mid or late September to the first Sunday in October.The Oktoberfest Munich Beer Festival was first opened on October 12, 1810. Over hundreds of years, it has gradually become an indispensable culture for indigenous people and an opportunity for millions of tourists on The whole world comes to enjoy the unique taste of this magic drink.
+                Oktoberfest (German pronunciation: [ɔkˈtoːbɐˌfɛst]) is the world's largest Volksfest (beer festival and travelling funfair). Held annually in Munich, Bavaria, Germany, it is a 16- to 18-day folk festival running from mid or late September to the first Sunday in October.
             </h2>
         </div>
         <div class="content">
             <div class="div1">
-                <h1> 1. What is Oktoberfest ? </h1>
+                <h1>What is Oktoberfest ? </h1>
                 <p> Also known as the October festival, Oktoberfest is held annually to honor the brewing industry in the world. Not only is the gathering place for German beer lovers but also a meeting place for different culinary cultures</p>
                 <figure>
                     <img src="img/ok-fes.jpg">
@@ -44,38 +65,73 @@
                 </figure>
             </div>
             <div class="div1">
-                <h1> 2. History of Oktoberfest </h1>
+                <h1>History of Oktoberfest </h1>
                 <p>Prince Ludwig or King Ludwig I married Princess Therese on October 12, 1810. All citizens of Munich at that time were invited to attend the field in front of the city gate. city ​​to celebrate this great event. One of the birth festivals is Oktoberfest, also known as October festival. Through more than 150 times of opening, Oktoberfest has gradually become one of the indispensable cultural features for the German people in particular and the whole world. in general</p>
             </div>
             <div class="div1">
-                <h1> 3. Meaning of Oktoberfest </h1>
+                <h1>Meaning of Oktoberfest </h1>
                 <p>The Oktoberfest Munich Beer Festival is an opportunity for fans all over the country to gather together to enjoy excellent beer, join exciting games and celebrate the brewing industry around the world.</p>
             </div>
             <div class="div1">
-                <h1> 4. Typical Activities</h1>
-                <p> When coming to Oktoberfest you will taste all kinds of beer all over the world. In order to meet the needs of millions of participants, the organizers designed many large and small pitches, the theaters provided around the event area, helping you to be immersed in the beer paradise in the right way.</p>
-                <p> The parades at the Oktoberfest Munich beer festival usually take place at the opening with the appearance of more than 7000 people. In addition to dancers, musicians, brewers, there are the participation of some authorities, representing towns and cities to encourage the spirit of the people, increase the dignified for the parade.</p>
-                <figure>
-                    <img src="img/dieu-hanh.jpg">
-                    <figcaption><i> The parade was held joyfully and bustling through the streets</i></figcaption>
-                </figure>
-            </div>
-        </div>
-        <div class="sidebar">
-            <div class="summary">
-                <p> 1. What is Oktoberfest ? </p>
-            </div>
-            <div class="summary">
-                <p> 2. History of Oktoberfest</p>
-            </div>
-            <div class="summary">
-                <p> 3. Meaning of Oktoberfest</p>
-            </div>
-            <div class="summary">
-                <p> 4. Typical Activities</p>
+                <h1>Events</h1>
+                <p> From the parade of Oktoberfest landlords through to tapping at the Schottenhamel tent and gun salutes: Here you can find out all you need to know about the key events and dates at Oktoberfest. When they take place, what you can expect, and the best place for you to see everything.</p>
+<!--                <p> The parades at the Oktoberfest Munich beer festival usually take place at the opening with the appearance of more than 7000 people. In addition to dancers, musicians, brewers, there are the participation of some authorities, representing towns and cities to encourage the spirit of the people, increase the dignified for the parade.</p>-->
+<!--                <figure>-->
+<!--                    <img src="img/dieu-hanh.jpg">-->
+<!--                    <figcaption><i> The parade was held joyfully and bustling through the streets</i></figcaption>-->
+<!--                </figure>-->
+                <div class="div2">
+                    <div class="block-1">
+                        <div class="teaser">
+                            <h3 class="teaser-headline">The parade of the Wiesn landlords and breweries</h3>
+                            <p class="teaser-text"> A festive start to Oktoberfest</p>
+                            <a href="#" class="readmore">Read more</a>
+                        </div>
+                    </div>
+                    <div class="block-2">
+                        <img src="img/festival/activities/start.jpg" >
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="block-1">
+                        <div class="teaser">
+                            <h3 class="teaser-headline">The traditional costume and hunters’ parade</h3>
+                            <p class="teaser-text">The costume parade – part of Oktoberfest since 1950</p>
+                            <a href="#" class="readmore">Read more</a>
+                        </div>
+                    </div>
+                    <div class="block-2">
+                        <img src="img/festival/activities/parade.jpg">
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="block-1">
+                        <div class="teaser">
+                            <h3 class="teaser-headline">Traditional gun salutes by the Bavaria statue</h3>
+                            <p class="teaser-text">Off with a bang: a Bavarian custom at the Wiesn</p>
+                            <a href="#" class="readmore">Read more</a>
+                        </div>
+                    </div>
+                    <div class="block-2">
+                        <img src="img/festival/activities/gun.jpg">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.menu-toggle').click(function () {
+            $('.menu').toggleClass('active');
+        })
+        $('ul li').click(function () {
+            $(this).siblings().removeClass('active');
+            $(this).toggleClass('active');
+        })
+    })
+</script>
 </body>
 </html>
