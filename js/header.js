@@ -1,7 +1,7 @@
 if (localStorage.getItem("header") === null){
     var header = "<div class=\"header\">\n" +
         "        <div class=\"logo\">\n" +
-        "            <a href=\"\"> <img src=\"img/logo.png\">\n" +
+        "            <a href=\"http://beer-guys.herokuapp.com/\"> <img src=\"img/logo.png\">\n" +
         "                <span id=\"logo\">Beer is good but beers are better</span>\n" +
         "            </a>\n" +
         "        </div>\n" +
@@ -29,7 +29,7 @@ if (localStorage.getItem("header") === null){
         "            </ul>\n" +
         "        </div>\n" +
         "        <div class=\"menu-toggle\"><i class=\"fa fa-bars\" aria-hidden=\"true\"></i></div>\n" +
-        "    </div> ";
+        "    </div>";
     localStorage.setItem("header", header);
 }
 $(".home").prepend(localStorage.getItem("header"));
