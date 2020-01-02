@@ -12,17 +12,17 @@ if (localStorage.getItem("head") === null){
         "                <li><a  href=\"#about\"> about us</a></li>\n" +
         "                <li class=\"sub-menu\"><a href=\"#brews\"> breweries <span class=\"caret\"></span></a>\n" +
         "                    <ul style=\"padding-bottom: 25px;padding-top: 25px\">\n" +
-        "                        <li><a href=\"#\">How to brew</a></li>\n" +
+        "                        <li><a href=\"how-to-brew.html\">How to brew</a></li>\n" +
         "                        <li><a href=\"#\">Brewing Factories</a></li>\n" +
         "                        <li><a href=\"#\">Craft Breweries </a></li>\n" +
         "                    </ul>\n" +
         "                </li>\n" +
         "                <li class=\"sub-menu\"><a href=\"#beers\"> beers <span class=\"caret\"></span></a>\n" +
         "                    <ul style=\"padding-bottom: 25px;padding-top: 25px\">\n" +
-        "                        <li><a href=\"https://ntmd.herokuapp.com/\">History of Beer</a></li>\n" +
-        "                        <li><a href=\"http://hitokirikioku.herokuapp.com/festival.html\">cultural references</a></li>\n" +
-        "                        <li><a href=\"#\">Nutritional values</a></li>\n" +
-        "                        <li><a href=\"#\">types of beer</a></li>\n" +
+        "                        <li><a href=\"originofbeer.html\">History of Beer</a></li>\n" +
+        "                        <li><a href=\"festival.html\">cultural references</a></li>\n" +
+        "                        <li><a href=\"nutrition.html\">Nutritional values</a></li>\n" +
+        "                        <li><a href=\"typeofbeer.html\">types of beer</a></li>\n" +
         "                    </ul>\n" +
         "                </li>\n" +
         "                <li><a href=\"#contact us\"> contact us</a></li>\n" +
