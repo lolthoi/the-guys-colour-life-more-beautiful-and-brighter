@@ -33,3 +33,5 @@ if (localStorage.getItem("head") === null){
     localStorage.setItem("head", head);
 }
 $(".home").prepend(localStorage.getItem("head"));
+
+localStorage.removeItem("head");
